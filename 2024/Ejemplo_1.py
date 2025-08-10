@@ -12,7 +12,3 @@ def Rx(tx):
 
 
 print(Rx(0.1))
-
-
-
-
