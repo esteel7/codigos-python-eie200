@@ -35,7 +35,7 @@ print(a[1, 3])
 
 # How to create a basic array https://numpy.org/doc/stable/user/absolute_beginners.html#how-to-create-a-basic-array
 
-# crra un arreglo de ceros (float64 por defecto)
+# crea un arreglo de ceros (float64 por defecto)
 c = np.zeros(3)
 
 d = np.zeros(3, dtype=np.int64)
