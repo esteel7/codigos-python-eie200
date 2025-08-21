@@ -20,7 +20,3 @@ def division_v2(x):
 numero = float(input("Ingrese un número: "))
 
 print(division(numero))
-
-# rodrigo.martinez@pucv.cl
-
-# Inscripción Grupo EIE200-1
