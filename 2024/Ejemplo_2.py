@@ -14,4 +14,3 @@ v = v0 * np.exp(-(c/m) * t) + (g * m /c) * (1 - np.exp(-(c/m)* t))
 plt.plot(t, v)
 
 plt.show()
-
