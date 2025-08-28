@@ -9,7 +9,6 @@ def getReciprocal(x):
         return 1 / x
     except ZeroDivisionError:
         print("Error: No es posible dividir por cero.")
-        return None
 
 print(getReciprocal(5)) # Salida: 0.2
 print(getReciprocal(0)) # Salida: Error: No es posible dividir por cero.
