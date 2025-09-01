@@ -9,11 +9,11 @@ Fecha: Agosto 2025
 import math
 
 def factorial_iterativo(n):
-    if n==0 or n==1:
+    if n==0:
         return 1
     elif type(n) == int and n > 1:
         resultado = 1
-        for i in range(2,n+1):
+        for i in range(1,n+1):
             resultado = resultado * i
         return resultado
     else:
