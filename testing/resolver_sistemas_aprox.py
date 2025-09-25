@@ -12,14 +12,16 @@ V1, V2, Vj = 18, 9, 0.7
 A = np.array([[R1+R2, -R2],[-R2, R2+R3]])
 
 # Vector de términos independientes
-b = np.array([Vj - V1, -V2])
+b = np.array([Vj - V1, V2])
 
 # Resolver el sistema
 x = np.linalg.solve(A, b)
 
 i1, i2 = x
 
-print(f"i1 = {i1:.5f} A e i2 = {i2:.5f} A")
+print(f"i1 = {i1:.6f} A e i2 = {i2:.6f} A")
+print(f"Id1 = {i2-i1:.6f} A e Id2 = {-i2:.6f} A")
+print(f"Vo = {R3*i2-V2:.4f} V\n")
 
 # ======================================================
 # Sección 2: Ejemplo con impedancias complejas
@@ -44,7 +46,7 @@ b = np.array([Vj - V1, -V2])
 x = np.linalg.solve(A, b)
 i1, i2 = x
 
-print(f"i1 = {i1:.4f}, i2 = {i2:.4f}")
+print(f"i1 = {i1:.4f}, i2 = {i2:.4f}\n")
 
 
 # ======================================================
