@@ -12,7 +12,7 @@ def y_exact(t):
 # Condiciones iniciales
 t0 = 0
 y0 = 2
-h = 1
+h = 0.25
 t_final = 4
 
 # Inicializamos los valores de t y y
