@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 # Parámetros del sistema
 m = 1  # Masa
 k = 1  # Constante del resorte
-h = 0.5  # Paso de tiempo
+h = 0.1  # Paso de tiempo
 t_final = 10  # Tiempo total
 
 # Condiciones iniciales
